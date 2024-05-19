@@ -22,7 +22,7 @@ const page = async (prop) => {
       </section>
 
 
-<h1 className='text-center mt-5 italic font-sans text-black text-2xl font-extrabold'>ACS all Cycles HSC 2025 </h1>
+<h1 className='text-center mt-5 italic font-sans text-black text-2xl font-extrabold'>HSC Batch 2024</h1>
       <section>
     <Sub
     name="ACS Engineering 2024"
