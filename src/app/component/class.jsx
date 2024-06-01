@@ -80,9 +80,9 @@ function Neo(props) {
         </div>
       )}
       {/* Pagination */}
-      <div className="flex justify-center m-8 gap-4">
+      <div className="flex justify-center m-8 gap-3">
         {[...Array(Math.ceil(videos.length / videosPerPage))].map((_, index) => (
-          <button key={index} onClick={() => paginate(index + 1)} className={`mx-1 italic  shadow-inner shadow-gray-600 px-3 py-1 rounded-sm ${currentPage === index + 1 ? 'bg-cyan-300 text-black font-extrabold' : 'bg-purple-500 text-black font-extrabold'}`}>
+          <button key={index} onClick={() => paginate(index + 1)} className={`mx-1 italic  shadow-inner shadow-gray-600 px-3 py-1 rounded-xl ${currentPage === index + 1 ? 'bg-cyan-300 text-black font-extrabold' : 'bg-purple-500 text-black font-extrabold'}`}>
             {index + 1}
           </button>
         ))}
