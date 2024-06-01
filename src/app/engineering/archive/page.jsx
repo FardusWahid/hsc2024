@@ -1,12 +1,11 @@
-import Neo from "@/app/component/class";
-
+import June from "@/app/component/maxclass"
 
     const Chem =  (props) => {
        
     return(
 
         <div>
-            <Neo
+            <June
             chapter="ACS Engineering 2023"
             playid="PLM8CY8hDMnwqMxbZ-0lDAkU_QsXI8Ms2J"
             />
