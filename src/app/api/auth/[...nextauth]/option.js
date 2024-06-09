@@ -39,7 +39,7 @@ export const option = {
 
     session: {
         strategy: 'jwt',
-        maxAge: 15,
+        maxAge: 86400,
     },
 
     callbacks: {
