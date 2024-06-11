@@ -7,7 +7,7 @@ import June from "@/app/component/maxclass"
         <div>
             <June
             chapter="ACS Engineering 2023"
-            playid="PLM8CY8hDMnwqMxbZ-0lDAkU_QsXI8Ms2J"
+            playid="PLxRwi0lKBoQMeBDp2HPcWgZuQU5Lu8iPt"
             />
         </div>
     )

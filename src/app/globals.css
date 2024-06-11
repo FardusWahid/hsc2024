@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Seymour+One&display=swap');
 
 body {
   background: #fffcf3;
@@ -21,10 +20,5 @@ body {
     box-shadow: 5px 5px 14px #ffffff, -5px -5px 14px #ffffff;
   }
 
-  .poet {
-    font-family: "Seymour One", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
 }
 

@@ -4,8 +4,8 @@ import Navbar from "./component/navbar";
 
 
 export const metadata = {
-  title: "APPLE 2024",
-  description: "APPLE ACADEMIC & ADMISSION",
+  title: "Apple 2024",
+  description: "Apple Admission 2024",
 };
 
 export default function RootLayout({ children }) {

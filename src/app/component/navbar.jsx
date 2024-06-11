@@ -38,26 +38,26 @@ export default function Navbar({ fixed }) {
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center text-xs uppercase poet leading-snug text-black hover:font-extrabold hover:text-purple-900 hover:text-shadow"
+                  className="px-3 py-2 flex items-center uppercase leading-snug text-[13px] text-black font-extrabold hover:bg-[#e7dec3] rounded-lg tracking-wide hover:tracking-widest transition-all ease-in-out duration-150  "
                   href="https://applecourses.netlify.app"
                 >
-                <span className=" ml-2 tracking-wider">Apple Shop</span>
+                <span className=" ml-2">Apple Shop</span>
                 </a>
               </li>
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center text-xs uppercase poet leading-snug text-black hover:font-extrabold hover:text-blue-900 hover:text-shadow"
+                  className="px-3 py-2 flex items-center uppercase leading-snug text-[13px] text-black font-extrabold hover:bg-[#e7dec3] rounded-lg tracking-wide hover:tracking-widest transition-all ease-in-out duration-150  "
                   href="https://www.facebook.com/groups/1451996508764221"
                 >
-                  <span className="ml-2 tracking-wider">Support Group</span>
+                  <span className="ml-2 ">Support Group</span>
                 </a>
               </li>
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center text-xs uppercase poet leading-snug text-black hover:font-extrabold hover:text-blue-900 hover:text-shadow"
+                  className="px-3 py-2 flex items-center uppercase leading-snug text-[13px] text-black font-extrabold hover:bg-[#e7dec3] rounded-lg hover:tracking-widest  tracking-wide transition-all ease-in-out duration-200"
                   href="/api/auth/signout"
                 >
-                <span className="ml-2 tracking-wider">Sign-out</span>
+                <span className="ml-2">Sign-out</span>
                 </a>
               </li>
             </ul>

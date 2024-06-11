@@ -11,12 +11,13 @@ export const option = {
             console.log("Google Profile:", profile);
 
             let userRole = "unpaid";
-            const adminEmails = ["mdaraf1232@gmail.com", "farduswahid31@gmail.com"];
             const proUsers = ["farduswahid87@gmail.com","akashjr190@gmail.com","tanjirislamshishir@gmail.com", "ms1897473@gmail.com", "shahi76569@gmail.com","oodhora32@gmail.com"];
+            const preEmails = ["mdaraf1232@gmail.com","farduswahid31@gmail.com","hozukisuigestu6@gmail.com"];
 
 
-            if(profile?.email && adminEmails.includes(profile.email)){
+            if(profile?.email && preEmails.includes(profile.email)){
                 userRole= "premium";
+
             }else if(profile?.email && proUsers.includes(profile.email)){
                 userRole = "pro";
             }
