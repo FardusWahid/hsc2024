@@ -1,13 +1,7 @@
 import Neo from "@/app/component/class";
-import { getServerSession } from 'next-auth';
-import { option } from "@/app/api/auth/[...nextauth]/option";
-import { redirect } from 'next/navigation'
 
-    const Ict = async (props) => {
-        const session = await getServerSession(option);
-       if(session?.user?.role !== "pro"){
-        redirect("/denied")
-     }
+    const Ict =  (props) => {
+     
     return(
 
         <div>
