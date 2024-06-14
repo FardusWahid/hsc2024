@@ -36,6 +36,11 @@ const Folder = async () => {
   route="/oneshot/oict"
   />
 
+<Sub
+  name="Udvash ict final revision"
+  route="/oneshot/ud-ic"
+  />
+
 
 <a href="https://docs.google.com/document/d/1FRaWZKeEiv2cPROC2FWYqo5zYLqw8CjdaJp8fsDthX0/edit?usp=sharing" target='_blank'><p className="flex bg-teal-950 text-white w-5/6 md:w-[360px] items-center justify-center py-1 m-auto mt-5 gap-3 rounded-lg font-mono font-extrabold text-lg">Materials&nbsp; <GrDocumentPdf color="white"  size={25}/>
 </p></a>
