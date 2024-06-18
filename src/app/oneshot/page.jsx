@@ -14,7 +14,7 @@ const Folder = async () => {
    
   return (
     <div>
-<h1 className='font-sans text-center text-3xl md:text-4xl italic font-extrabold mt-7 mb-0'><span className='tracking-widest md:tracking-normal'>Darpan Academy </span>OneShots-24 </h1>
+<h1 className='font-sans text-center text-3xl md:text-4xl italic font-extrabold mt-4 mb-0'><span className='tracking-widest md:tracking-normal'>Darpan Academy </span>OneShots-24 </h1>
 
 
 <section className='mt-2'>
@@ -37,7 +37,7 @@ const Folder = async () => {
   />
 
 <Sub
-  name="Udvash ict final revision"
+  name="Udvash ICT FRC"
   route="/oneshot/ud-ic"
   />
 
@@ -52,7 +52,7 @@ const Folder = async () => {
   
 </section>
 <br />
-<Link className='flex justify-center  bg-[#eae0c3] md:bg-[#e2d5b0] w-11/12 md:w-[380px] p-2 rounded-xl hover:text-[17px] transition-all ease-in-out duration-200  font-sans font-extrabold tracking-widest m-auto mb-2 gap-2' href="/updates">See what is new<MdTipsAndUpdates size={24} color='blue'/></Link>
+<Link className='flex justify-center  bg-[#eae0c3] md:bg-[#e2d5b0] w-5/6 md:w-[380px] p-2 rounded-xl hover:text-[17px] transition-all ease-in-out duration-200  font-sans font-extrabold tracking-widest m-auto mb-2 gap-2' href="/updates">See what is new<MdTipsAndUpdates size={24} color='blue'/></Link>
 
 
 

@@ -8,7 +8,11 @@ function page(props) {
 
 <div className='flex flex-wrap justify-between  gap-5 md:mx-5 lg:mx-8 lg:justify-between'>
 
-
+<Post
+date="19 june 2024"
+line="Facebook service is Unavailable for next 3 days. Message here for any potential question. https://t.me/applecourses"
+color='bg-pink-400'
+/>
 
 <Post
 date="12 june 2024"
