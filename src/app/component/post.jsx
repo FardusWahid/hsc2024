@@ -16,6 +16,7 @@ function Post(props) {
 
     </div>
     <h1 className="mt-5 font-sans text-lg italic text-start tracking-wide font-bold">{props.line}</h1>
+    <a href={props.road} className="text-sm font-sans font-extrabold underline text-blue-900">{props.name}</a>
 <img src={props.link} loading="lazy"  className="rounded-md mt-2 "/>
 </div>
 
