@@ -67,9 +67,9 @@ function Neo(props) {
                   width={isLargeScreen ? 475 : 340}
                   height={isLargeScreen ? 290 : 230}
                   lazy={true} 
-                  light={true}
                  playing={true}
-                 
+                 light={`https://img.youtube.com/vi/${video.snippet.resourceId.videoId}/hqdefault.jpg`}
+
 
                 
                 />
