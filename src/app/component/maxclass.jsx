@@ -51,12 +51,12 @@ function June(props) {
   return (
     <div>
 
-      <h1 className='text-center font-bold mt-2 text-2xl'>{props.chapter} </h1><br />
+      <h1 className='text-center font-extrabold mt-1 md:mt-0 select-none text-2xl'>{props.chapter} </h1><br />
 
       {loading && <p className=" flex justify-center items-center font-extrabold tracking-tight text-lg text-black">Loading...</p>}
       {error && <p>Error: {error}</p>}
       {!loading && !error && (
-        <div className="w-full h-full flex flex-wrap justify-center gap-5  ">
+        <div className="w-full h-full flex flex-wrap justify-center gap-5">
           {currentVideos.map(video => (
 
             <div key={video.id} >

@@ -7,6 +7,14 @@ function page(props) {
 <h1 className='text-center font-serif italic font-bold text-2xl '>Latest updates</h1>
 
 <div className='flex flex-wrap justify-between  gap-5 md:mx-5 lg:mx-8 lg:justify-between'>
+<Post
+date="26 june 2024"
+road="https://www.facebook.com/groups/1451996508764221/permalink/1494593874504484/"
+name="POST LINK"
+line=" তোমাদের জন্য এটি Completely FREE! Apple Courses private group এর এই post এ Comment করো"
+link="https://asgcompressednote.com/assets/images/aa.jpg"
+color='bg-'
+/>
 
 <Post
 date="21 june 2024"

@@ -46,16 +46,16 @@ function Neo(props) {
   return (
     <div>
 
-      <h1 className='text-center font-bold mt-2 text-2xl'>{props.chapter} </h1><br />
+      <h1 className='text-center font-extrabold mt-1 md:mt-0 text-2xl'>{props.chapter} </h1><br />
 
       {loading && <p className=" flex justify-center items-center font-extrabold tracking-tight text-lg text-black">Loading...</p>}
       {error && <p>Error: {error}</p>}
       {!loading && !error && (
-        <div className="w-full h-full flex flex-wrap justify-center gap-5  ">
+        <div className="w-full h-full flex flex-wrap justify-center gap-5">
           {currentVideos.map(video => (
 
             <div key={video.id} >
-                <p className='m-auto text-center text-[12px]  font-bold font-mono w-[345px] lg:w-[475px]'>{video.snippet.title}</p>
+                <p className='m-auto select-none text-center text-[12px]  font-bold font-mono w-[345px] lg:w-[475px]'>{video.snippet.title}</p>
 
 
 
