@@ -43,7 +43,7 @@ const page = async (prop) => {
     </section>
 
 <br/>
-    <Link className='flex justify-center hover:ring-1 hover:ring-[#d9ceaf]  bg-[#f7eed5] md:bg-[#f1e7c9] w-5/6 md:w-[380px] p-2 rounded-xl hover:text-[17px] transition-all ease-in-out duration-200  font-sans font-extrabold tracking-widest m-auto mb-2 gap-2' href="/updates">See what is new<MdTipsAndUpdates size={24} color='blue'/></Link>
+    <Link className='flex justify-center hover:ring-1 hover:ring-blue-950 ring-[.3px] ring-blue-900  bg-[#f7eed5] md:bg-[#f1e7c9] w-5/6 md:w-[380px] p-2 rounded-xl hover:text-[17px] transition-all ease-in-out duration-200  font-sans font-extrabold tracking-widest m-auto mb-2 gap-2' href="/updates">See what is new<MdTipsAndUpdates size={24} color='blue'/></Link>
 
 
     </div>  
