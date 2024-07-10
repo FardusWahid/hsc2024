@@ -13,18 +13,18 @@ const Folder = async () => {
     
    
   return (
-    <div>
-<h1 className='font-sans text-center text-3xl md:text-4xl italic font-extrabold mt-4 mb-0'><span className='tracking-widest md:tracking-normal'>Darpan Academy </span>OneShots-24 </h1>
+    <div className='select-none us'>
+<h1 className='font-sans text-center text-3xl md:text-4xl italic font-extrabold mt-2 mb-0'><span className='text-[34px] md:text-4xl md:tracking-normal'>Darpan Academy </span>OneShots-24 </h1>
 
 
 <section className='mt-2'>
 
   <Sub
-  name="Physics"
+  name="Physics 1st & 2nd"
   route="/oneshot/opy"
   />
     <Sub
-  name="Chemistry"
+  name="Chemistry 1st & 2nd"
   route="/oneshot/och"
   />
     <Sub
@@ -37,23 +37,18 @@ const Folder = async () => {
   />
 
 <Sub
-  name="Udvash ICT FRC"
-  route="/oneshot/ud-ic"
-  />
-
-
-<a href="https://docs.google.com/document/d/1FRaWZKeEiv2cPROC2FWYqo5zYLqw8CjdaJp8fsDthX0/edit?usp=sharing" target='_blank'><p className="flex bg-teal-950 text-white w-5/6 md:w-[360px] items-center justify-center py-1 m-auto mt-5 gap-3 rounded-lg font-mono font-extrabold text-lg">Materials&nbsp; <GrDocumentPdf color="white"  size={25}/>
-</p></a>
-<Sub
-  name="2023 Archive"
+  name="2023 Archive playlist"
   route="https://www.youtube.com/playlist?list=PLuv5X6bIrbrH2aqZ2WWQ2-pVsGX-yrgaF"
   />
 
+<a href="https://docs.google.com/document/d/1FRaWZKeEiv2cPROC2FWYqo5zYLqw8CjdaJp8fsDthX0/edit?usp=sharing"><p className="wd md:w-[375px] m-auto flex bg-black text-white items-center justify-center p-[9px] my-5 gap-2 rounded-md hover:tracking-wide transition-all ease-in duration-100  font-sans font-extrabold text-lg">Materials&nbsp; <GrDocumentPdf color="white"  size={25}/>
+</p></a>
+
+
   
 </section>
-<br />
-<Link className='flex justify-center  bg-[#f7eed5] md:bg-[#f1e7c9] w-5/6 md:w-[380px] p-2 rounded-xl hover:text-[17px] transition-all ease-in-out duration-200  font-sans font-extrabold tracking-widest m-auto mb-2 gap-2' href="/updates">See what is new<MdTipsAndUpdates size={24} color='blue'/></Link>
 
+<Link className='flex justify-center bg-purple-900 hover:ring-1 hover:ring-black w-11/12 md:w-[380px] p-2 rounded-md hover:text-[17px] transition-all ease-in-out duration-200   font-sans font-thin text-white italic m-auto mb-2 gap-2' href="/updates">See what is new<MdTipsAndUpdates size={24} color='pink'/></Link>
 
 
 

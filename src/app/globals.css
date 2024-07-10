@@ -4,21 +4,19 @@
 
 
 body {
-  background: #fffcf3;
+  background: rgb(35, 254, 254);
 }
 
 @layer base {
   .nav {
-    border-radius: 9px;
-    background: hsl(40, 100%, 98%);
-    box-shadow: 12px 12px 24px #d9d6cf, -12px -12px 24px #ffffff;
+    border-radius: 8px;
+    background: cyan;
+    box-shadow: 12px 12px 24px rgb(67, 172, 242), -12px -12px 24px #13afe7;
+    box-shadow: 12px 12px 24px skyblue, -12px -12px 24px #079fcd;
   }
-
-  .card {
-    background: #fffaeb;
-    border-radius: 5px;
-    box-shadow: 5px 5px 14px #ffffff, -5px -5px 14px #ffffff;
-  }
+.wd{
+  width: 87%;
+}
 
 }
 

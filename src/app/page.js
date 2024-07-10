@@ -14,7 +14,7 @@ const page = async (prop) => {
 
   
   return (
-    <div>
+    <div className='select-none'>
       <h1 className='text-center mt-7 italic tracking-tighter md:tracking-normal font-sans font-extrabold text-black text-3xl md:text-4xl'>Apple Admission 2024 </h1>
 
 <section className='grid items-center m-auto justify-center w-3/4 mt-3 '>
@@ -37,13 +37,13 @@ const page = async (prop) => {
 
 
 <Sub
-    name="Darpan Academy OneShot"
+    name="Darpan Acdmy OneShot"
     route="/oneshot"
     />
     </section>
 
 <br/>
-    <Link className='flex justify-center hover:ring-1 hover:ring-blue-950 ring-[.3px] ring-blue-900  bg-[#f7eed5] md:bg-[#f1e7c9] w-5/6 md:w-[380px] p-2 rounded-xl hover:text-[17px] transition-all ease-in-out duration-200  font-sans font-extrabold tracking-widest m-auto mb-2 gap-2' href="/updates">See what is new<MdTipsAndUpdates size={24} color='blue'/></Link>
+    <Link className='flex justify-center bg-black wd text-white md:w-[380px] p-3 hover:text-[17px] rounded-md hover:ring-1 hover:ring-black transition-all ease-in-out duration-200  font-sans font-thin italic tracking-widest m-auto mb-2 gap-2' href="/updates">See what is new<MdTipsAndUpdates size={24} color='yellow'/></Link>
 
 
     </div>  

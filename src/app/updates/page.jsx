@@ -10,6 +10,14 @@ function page(props) {
 
 
 <Post
+date="10 july 2024"
+road="https://apple2024.netlify.app"
+name="Link"
+line="vercel server কখনো busy থাকলে এটা use করবে https://apple2024.netlify.app"
+color='bg-[#F6EDD1] text-blue-950'
+/>
+
+<Post
 date="28 june 2024"
 road="https://www.facebook.com/share/PotRZm2sKSjALm6P/"
 name="GROUP LINK"
