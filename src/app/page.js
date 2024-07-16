@@ -1,7 +1,6 @@
 import { getServerSession } from 'next-auth'
 import { option } from './api/auth/[...nextauth]/option'
 import { redirect } from 'next/navigation'
-import Image from 'next/image'
 import Link from 'next/link'
 import { MdTipsAndUpdates } from "react-icons/md";
 import Sub from './component/sub'
@@ -15,12 +14,12 @@ const page = async (prop) => {
   
   return (
     <div className='select-none'>
-      <h1 className='text-center mt-7 italic tracking-tighter md:tracking-normal font-sans font-extrabold text-black text-3xl md:text-4xl'>Apple Admission 2024 </h1>
+      <h1 className='chapterHeading tracking-tighter md:tracking-normal'>Apple Admission 2024 </h1>
 
-<section className='grid items-center m-auto justify-center w-3/4 mt-3 '>
+      <section className='flex  gap-1  justify-start wd  m-auto  text-[15px] md:w-1/2 lg:w-1/3 xl:w-[390px] md:justify-start my-4 font-sans italic font-semibold'>
       
-      <h1 className='text-center tracking-tight md:tracking-normal font-bold font-sans text-lg md:text-xl'>Welcome back <span className='font-serif italic font-extrabold tracking-tight text-lg'>{session?.user?.name}</span> </h1>
-      <p className='text-lg text-start my-2 font-sans font-semibold '>account status: <span className='font-extrabold font-sans capitalize text-lg  italic'>{session?.user?.role}</span><br/></p>
+      <h1 className='bg-gray-800 px-3 py-[2.5px] w-fit rounded-md shadow-inner shadow-gray-700 hover:bg-gray-900 tracking-tight md:tracking-normal'> <span>{session?.user?.name}</span></h1>
+      <p className='bg-yellow-500 hover:bg-yellow-600 px-3 w-fit py-[2.5px] rounded-md shadow-inner text-black shadow-yellow-300'>status: <span>{session?.user?.role}</span></p>
       </section>
 
 
@@ -42,9 +41,10 @@ const page = async (prop) => {
     />
     </section>
 
-<br/>
-    <Link className='flex justify-center bg-black wd text-white md:w-[380px] p-3 hover:text-[17px] rounded-md hover:ring-1 hover:ring-black transition-all ease-in-out duration-200  font-sans font-thin italic tracking-widest m-auto mb-2 gap-2' href="/updates">See what is new<MdTipsAndUpdates size={24} color='yellow'/></Link>
 
+<br/>
+<Link href="/updates" className="mat m-auto hover:bg-purple-600 flex bg-purple-500 text-black items-center font-semibold justify-center p-[9px] my-5 gap-2 rounded-lg hover:tracking-wide transition-all ease-in duration-100  font-sans  tracking-widest italic text-lg">See what is new<MdTipsAndUpdates size={24} color='black'/>
+</Link>
 
     </div>  
     

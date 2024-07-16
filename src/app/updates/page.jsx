@@ -34,20 +34,13 @@ line="ASG Compressed notes versison 2.0 তোমাদের জন্য Compl
 color='bg-pink-300 text-lime-950'
 />
 
-<Post
-date="21 june 2024"
-road="https://www.facebook.com/apple.courses.netlify.app.3.0/"
-name="Facebook page"
-line="Follow our new Facebook page"
-link="https://applecourses.netlify.app/_next/image?url=%2Fbetterfb.webp&w=1920&q=75"
-color='bg-cyan-200'
-/>
+
 
 
 <Post
 date="12 june 2024"
 line="OneShot course এর ২টা missing ক্লাস Lecture Sheet এর সাথে দেয়া আছে "
-color='bg-sky-300'
+color='bg-sky-300 text-black'
 />
 
 
@@ -56,7 +49,7 @@ color='bg-sky-300'
 <Post
 date="10 june 2024"
 line="We have Updated subscription to all our Engineering Course Members. Now you guys can access Darpan Academy One course for free."
-color='bg-lime-100'
+color='bg-lime-100 text-black'
 />
 
 

@@ -1,23 +1,16 @@
-import { getServerSession } from 'next-auth'
-import { option } from '../api/auth/[...nextauth]/option'
-import { redirect } from 'next/navigation'
 import Sub from '../component/sub';
-import { GrDocumentPdf } from "react-icons/gr";
-import Link from 'next/link';
-import { MdTipsAndUpdates } from "react-icons/md";
+import Mat from '../component/mat';
 
 
 
-const Folder = async () => {
-     const session = await getServerSession(option);
+const Folder = () => {
     
    
   return (
-    <div className='select-none us'>
-<h1 className='font-sans text-center text-3xl md:text-4xl italic font-extrabold mt-2 mb-0'><span className='text-[34px] md:text-4xl md:tracking-normal'>Darpan Academy </span>OneShots-24 </h1>
+    <div className='select-none'>
+<h1 className='chapterHeading mt-2 md:mt-0 leading-[42px] lg:tracking-tighter'>Darpan Academy OneShot 24</h1>
 
-
-<section className='mt-2'>
+<section className='mt-3 md:mt-5'>
 
   <Sub
   name="Physics 1st & 2nd"
@@ -41,16 +34,11 @@ const Folder = async () => {
   route="https://www.youtube.com/playlist?list=PLuv5X6bIrbrH2aqZ2WWQ2-pVsGX-yrgaF"
   />
 
-<a href="https://docs.google.com/document/d/1FRaWZKeEiv2cPROC2FWYqo5zYLqw8CjdaJp8fsDthX0/edit?usp=sharing"><p className="wd md:w-[375px] m-auto flex bg-black text-white items-center justify-center p-[9px] my-5 gap-2 rounded-md hover:tracking-wide transition-all ease-in duration-100  font-sans font-extrabold text-lg">Materials&nbsp; <GrDocumentPdf color="white"  size={25}/>
-</p></a>
+<Mat link="https://docs.google.com/document/d/1FRaWZKeEiv2cPROC2FWYqo5zYLqw8CjdaJp8fsDthX0/edit?usp=sharing" />
 
 
   
 </section>
-
-<Link className='flex justify-center bg-purple-900 hover:ring-1 hover:ring-black w-11/12 md:w-[380px] p-2 rounded-md hover:text-[17px] transition-all ease-in-out duration-200   font-sans font-thin text-white italic m-auto mb-2 gap-2' href="/updates">See what is new<MdTipsAndUpdates size={24} color='pink'/></Link>
-
-
 
 
     </div>

@@ -74,7 +74,7 @@ function June(props) {
                   light={`https://img.youtube.com/vi/${video.snippet.resourceId.videoId}/hqdefault.jpg`}
                  playing={true}
                  
-
+className="ring-[.5px] ring-gray-700"
                 
                 />
 
@@ -84,9 +84,9 @@ function June(props) {
         </div>
       )}
       {/* Pagination */}
-      <div className="flex flex-wrap justify-center mt-5 mx-3 mb-3 gap-3">
+      <div className="flex flex-wrap justify-center m-8 gap-2">
         {[...Array(Math.ceil(videos.length / videosPerPage))].map((_, index) => (
-          <button key={index} onClick={() => paginate(index + 1)} className={`mx-1 italic px-3 py-1 rounded-md ${currentPage === index + 1 ? 'bg-white ring-1 ring-black text-black font-extrabold' : 'bg-black text-white font-extrabold'}`}>
+          <button key={index} onClick={() => paginate(index + 1)} className={`mx-1 italic px-3 py-1 rounded-md ${currentPage === index + 1 ? 'bg-white ring-1 ring-white text-black font-extrabold' : 'bg-black ring-white ring-1 text-white  font-extrabold'}`}>
             {index + 1}
           </button>
         ))}

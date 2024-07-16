@@ -1,69 +1,86 @@
-'use client'
-import React from "react";
-import { GiHamburgerMenu } from "react-icons/gi";
-
+'use client';
+import Link from 'next/link';
+import React, { useEffect, useRef } from 'react';
+import { GiHamburgerMenu } from 'react-icons/gi';
 export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
+  const navbarRef = useRef(null);
+
+  const handleClickOutside = (event) => {
+    if (navbarRef.current && !navbarRef.current.contains(event.target)) {
+      setNavbarOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    if (navbarOpen) {
+      document.addEventListener('click', handleClickOutside);
+    } else {
+      document.removeEventListener('click', handleClickOutside);
+    }
+    return () => {
+      document.removeEventListener('click', handleClickOutside);
+    };
+  }, [navbarOpen]);
+
+
+
   return (
-    <>
-      <nav className=" w-full flex flex-wrap items-center justify-between px-3 py-1 fixed nav mb-3 select-none">
-        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
+    <div className="select-none">
+      <nav className="w-full flex flex-wrap items-center justify-between px-3 py-1 bg-black fixed mb-3 z-50 shadow-md shadow-gray-800 md:shadow-lg md:shadow-gray-800">
+        <div className="container px-3 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <a
-              className="text-2xl md:text-4xl  font-extrabold tracking-wide leading-relaxed inline-block mr-4 py-2 whitespace-nowrap text-black font-sans"
+            <Link
+              className="text-3xl md:text-4xl  font-extrabold tracking-wide leading-relaxed inline-block mr-4 py-2 whitespace-nowrap text-cyan-200 font-sans"
               href="/"
             >
-              Apple<span className="tracking-normal text-[9px] italic">premium</span>
-            </a>
+              Apple<span className="tracking-normal text-[10px] font-semibold italic">Premium</span>
+            </Link>
             <button
-              className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              className="text-black cursor-pointer h-[35px] items-center flex my-auto text-xl leading-none px-[6px] rounded-sm lg:hidden"
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
-            
-            <GiHamburgerMenu 
-            color="black"
-            size={26} />
-
-
+              <GiHamburgerMenu color="cyan" size={27} />
             </button>
           </div>
           <div
+            ref={navbarRef}
             className={
-              "lg:flex flex-grow items-center" +
-              (navbarOpen ? " flex" : " hidden")
+              'lg:flex flex-grow items-center' +
+              (navbarOpen ? ' flex' : ' hidden')
             }
             id="example-navbar-danger"
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center uppercase leading-snug text-[13px] text-black font-extrabold hover:bg-pink-300 rounded-md tracking-wide hover:tracking-widest transition-all ease-in-out duration-150  "
-                  href="https://applecourses.netlify.app"
+              <li>
+                <Link
+                  className="px-3 py-2 flex items-center  text-xs lg:text-sm lg:tracking-[0px]   uppercase leading-snug text-cyan-200 transition-all rounded-sm ease-in-out duration-300 font-extrabold ml-2 hover:tracking-widest hover:bg-pink-400 hover:text-black"
+                  href="https://aapathshala.com/exams"
                 >
-                <span className=" ml-2">Apple Shop</span>
-                </a>
+                  Exams
+                </Link>
               </li>
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center uppercase leading-snug text-[13px] text-black font-extrabold hover:bg-pink-300 rounded-md tracking-wide hover:tracking-widest transition-all ease-in-out duration-150  "
-                  href="https://www.facebook.com/groups/1451996508764221"
+              <li>
+                <Link
+                  className="px-3 py-2 flex items-center text-xs lg:text-sm lg:tracking-[0px]  uppercase ripple-container leading-snug text-cyan-200 transition-all rounded-sm ease-in-out duration-300 font-extrabold ml-2 tracking-wider hover:tracking-widest hover:bg-yellow-950 hover:text-purple-200"
+                  href="https://www.facebook.com/groups/applecourses/"
                 >
-                  <span className="ml-2 ">Support Group</span>
-                </a>
+                  facebook group
+                </Link>
               </li>
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center uppercase leading-snug text-[13px] text-black font-extrabold hover:bg-pink-300 rounded-md hover:tracking-widest  tracking-wide transition-all ease-in-out duration-200"
+              <li>
+                <Link
+                  className="px-3 py-2 flex items-center text-xs lg:text-sm lg:tracking-[0px]   ripple-container uppercase leading-snug text-cyan-200 transition-all rounded-sm ease-in-out duration-300 font-extrabold ml-2 tracking-wider hover:tracking-widest  hover:bg-[#C8F560] hover:text-black "
                   href="/api/auth/signout"
                 >
-                <span className="ml-2">Sign-out</span>
-                </a>
+                  Sign-Out
+                </Link>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 }
