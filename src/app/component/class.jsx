@@ -66,7 +66,7 @@ function Neo(props) {
                   light={`https://img.youtube.com/vi/${video.snippet.resourceId.videoId}/hqdefault.jpg`}
                  playing={true}
                  
-className="ring-[.5px] ring-gray-700"
+className="ring-[0.6px] ring-gray-800"
                 
                 />
 

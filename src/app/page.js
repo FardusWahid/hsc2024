@@ -14,7 +14,7 @@ const page = async (prop) => {
   
   return (
     <div className='select-none'>
-      <h1 className='chapterHeading tracking-tighter md:tracking-normal'>Apple Admission 2024 </h1>
+      <h1 className='chapterHeading tracking-tighter md:tracking-normal mb-10'>Apple Admission 2024 </h1>
 
       <section className='flex  gap-1  justify-start wd  m-auto  text-[15px] md:w-1/2 lg:w-1/3 xl:w-[390px] md:justify-start my-4 font-sans italic font-semibold'>
       

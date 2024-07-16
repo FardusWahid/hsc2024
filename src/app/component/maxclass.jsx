@@ -53,7 +53,7 @@ function June(props) {
 
       <h1 className='text-center font-extrabold mt-1 md:mt-0 select-none text-2xl'>{props.chapter} </h1><br />
 
-      {loading && <p className=" flex justify-center items-center font-extrabold tracking-tight text-lg text-black">Loading...</p>}
+      {loading && <p className=" flex justify-center items-center font-extrabold tracking-tight text-lg text-white">Loading...</p>}
       {error && <p>Error: {error}</p>}
       {!loading && !error && (
         <div className="w-full flex flex-wrap justify-center 2xl:w-[1490px] 2xl:m-auto 2xl:justify-start  gap-5  ">
@@ -74,7 +74,7 @@ function June(props) {
                   light={`https://img.youtube.com/vi/${video.snippet.resourceId.videoId}/hqdefault.jpg`}
                  playing={true}
                  
-className="ring-[.5px] ring-gray-700"
+className="ring-[.6px] ring-gray-800"
                 
                 />
 

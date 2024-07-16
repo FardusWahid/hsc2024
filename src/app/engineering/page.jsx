@@ -12,8 +12,8 @@ const Folder = () => {
   return (
     <div className='select-none'>
       
-      <h1 className='font-sans text-center tracking-tight text-cyan-300 text-[32px] md:text-[45px] font-extrabold my-2 md:mt-0'>ACS Engineering 2024 </h1><div>
-      <h1 className='text-center text-lg tracking-wide text-pink-400 italic'>2024 Classes</h1>
+      <h1 className='font-sans text-center tracking-tight text-cyan-300 text-[32px] md:text-[45px] font-extrabold '>ACS Engineering 2024</h1><div>
+      <h1 className='text-center text-[16px] font-thin tracking-wide text-pink-400 italic'>2024 Classes</h1>
 
 <section>
 
@@ -52,7 +52,7 @@ const Folder = () => {
 <Mat link="https://tinyurl.com/engi24"/>
 <Link className=" matwidth justify-center flex md:w-1/2 lg:w-1/3 xl:w-[410px] md:text-lg italic bg-gray-800 hover:bg-gray-900 hover:ring-red-900 hover:ring-1 transition-all ease-in-out duration-150 text-cyan-100 font-extrabold tracking-wide hover:tracking-widest rounded-md m-auto py-[8px] md:py-[12px] mt-5 md:bg-pink-950" href="https://docs.google.com/document/d/1G4whoYmuYn1W0-cg1VxRWO4NnnH-MT2dzi4hQX8FlJI/edit?usp=sharing">Practice Sheets&nbsp; <GrDocumentPdf color="white"  size={25}/>
 </Link>
-<p className='text-center font-sans my-4 italic text-pink-500 text-lg' >2023 Archive</p>
+<p className='text-center font-sans my-3 font-thin italic text-pink-500 text-[16px]' >2023 Archive</p>
 <Sub
   name="Engineering Archive"
   route="/engineering/archive"

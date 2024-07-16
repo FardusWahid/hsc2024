@@ -8,9 +8,9 @@ const Folder = () => {
    
   return (
     <div className='select-none'>
-<h1 className='chapterHeading mt-2 md:mt-0 leading-[42px] lg:tracking-tighter'>Darpan Academy OneShot 24</h1>
+<h1 className='chapterHeading mt-2 md:mt-0 tracking-tight lg:tracking-tighter'>Darpan Academy OneShots 2024</h1>
 
-<section className='mt-3 md:mt-5'>
+<section className='mt-6 md:mt-10'>
 
   <Sub
   name="Physics 1st & 2nd"
