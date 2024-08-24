@@ -39,7 +39,7 @@ const Folder = () => {
   name="Chemistry 2nd paper"
   route="/varsity/cm2"
   />
-  <Link className=" matwidth justify-center flex md:w-1/2 lg:w-1/3 xl:w-[410px] md:text-lg italic hover:bg-yellow-600 hover:ring-red-900 hover:ring-1 transition-all ease-in-out duration-150 text-black font-extrabold tracking-wide hover:tracking-widest rounded-md m-auto py-[8px] md:py-[12px] mt-5 bg-yellow-400" href="https://docs.google.com/document/d/1cNvH5nYg_kR4_3uZYg2D-DHYZ8tapTljgdh5v86rOD4/edit">lecture & practice sheets&nbsp; <GrDocumentPdf color="black"  size={25}/>
+  <Link className=" matwidth justify-center flex md:w-1/2 lg:w-1/3 xl:w-[410px] md:text-lg italic hover:bg-red-950 hover:ring-red-900 hover:ring-1 transition-all ease-in-out duration-150 text-cyan-100 font-extrabold tracking-wide hover:tracking-widest rounded-md m-auto py-[8px] md:py-[12px] mt-5 bg-gray-700" href="https://docs.google.com/document/d/1cNvH5nYg_kR4_3uZYg2D-DHYZ8tapTljgdh5v86rOD4/edit">lecture & practice sheets&nbsp; <GrDocumentPdf color="white"  size={25}/>
   </Link>
   <Sub
   name="Biology 1st paper"
