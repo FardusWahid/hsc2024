@@ -8,7 +8,7 @@ const Folder = () => {
   return (
     <div className='select-none'>
       
-      <h1 className='font-sans italic text-center text-cyan-300 text-[32px] md:text-[45px] md:leading-[50px] font-extrabold tracking-tighter'>Varsity & GST Admission</h1><div>
+      <h1 className='font-sans italic text-center text-cyan-300 text-[32px] md:text-[45px] md:leading-[50px] font-extrabold tracking-tighter'>GST & Varsity Admission</h1><div>
       <h1 className='text-center text-[16px] font-thin tracking-wide text-pink-400 italic'>2024 Classes</h1>
 
 <section>
