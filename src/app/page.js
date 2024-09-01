@@ -36,7 +36,7 @@ const page = async (prop) => {
 
 <Sub
     name="ACS Medical Admission 24"
-    route="/denied"
+    route="/medical"
     />
 
 <Sub
