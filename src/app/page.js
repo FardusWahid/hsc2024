@@ -34,6 +34,10 @@ const page = async (prop) => {
     route="/varsity"
     />
 
+<Sub
+    name="ACS Medical Admission 24"
+    route="/denied"
+    />
 
 <Sub
     name="Darpan Acdmy OneShot"
