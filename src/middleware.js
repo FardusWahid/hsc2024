@@ -8,9 +8,7 @@ export default withAuth(
 
       if(req.nextUrl.pathname.startsWith("/engineering") &&
                 req.nextauth.token.role != "premium" &&
-                req.nextauth.token.role != "Neanderthal" &&
-                req.nextauth.token.role != "unpaid"
-
+                req.nextauth.token.role != "Neanderthal"
 
 ){
  return NextResponse.rewrite(new URL("/denied", req.url));
