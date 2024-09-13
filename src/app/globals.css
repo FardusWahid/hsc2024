@@ -11,13 +11,13 @@ body {
 
   .chapter{
     @apply wd  md:w-1/2 lg:w-1/3 xl:w-[390px] m-auto  mt-5 py-[9.6px] lg:py-[11px] px-0 text-[17px] lg:text-[18px] font-sans italic
-    rounded-md text-cyan-200 hover:bg-cyan-100 bg-gradient-to-r from-gray-950 via-gray-900 to-gray-950
-    font-bold hover:ring-yellow-800 hover:tracking-wider transition-all ease-in-out duration-150
- ring-1 ring-gray-700
+    rounded-md text-cyan-200 hover:text-cyan-300 bg-gradient-to-r from-gray-950 via-gray-900 to-gray-950
+    font-bold hover:ring-yellow-900 hover:ring-1 hover:tracking-wider transition-all ease-in duration-100
+ ring-[0.55px] ring-gray-700 hover:scale-105
   }
 
   .mat{
-    @apply matwidth md:w-1/2 lg:w-1/3 xl:w-[410px] md:text-lg italic bg-gray-800 hover:bg-gray-900 hover:ring-red-900 hover:ring-1 transition-all ease-in duration-150 text-cyan-100 font-extrabold tracking-wide hover:tracking-widest rounded-md m-auto py-[8px] md:py-[12px] mt-5 md:bg-pink-950
+    @apply matwidth md:w-1/2 lg:w-1/3 xl:w-[410px] md:text-lg italic bg-gray-900 hover:bg-gray-950 ring-gray-800 ring-1 hover:ring-pink-800 hover:ring-[.9px] transition-all ease-in duration-100 hover:scale-105 text-cyan-100 font-extrabold tracking-wide hover:tracking-widest rounded-md m-auto py-[8px] md:py-[12px] mt-5
   }
 
   .chapterHeading{

@@ -8,7 +8,7 @@ export default function Sub(props){
 <div className="select-none">
 
 
-<Link href={props.route} className="chapter flex justify-center gap-2 transition-all ease-in duration-100">{props.name}<FaCirclePlay size={27}/>
+<Link href={props.route} className="chapter flex justify-center gap-2 ">{props.name}<FaCirclePlay size={27}/>
 </Link>          
                 
 </div> 

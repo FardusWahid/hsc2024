@@ -13,7 +13,7 @@ export const option = {
             const preEmails = ["arafloser1@gmail.com","applebyte87@gmail.com","hozukisuigestu6@gmail.com","ssindidahmednabil@gmail.com","jawataafnan734@gmail.com","hscstudy47@gmail.com","tabassumcoxbd@gmail.com","fawzulpunno@gmail.com","simantoansary15@gmail.com","kftmosara@gmail.com","acscourse10a@gmail.com","zhb8115@gmail.com","londondairy80@gmail.com","ardinalislam@gmail.com","pproshantaroy45@gmail.com","techsudipto.360@gmail.com","sakiradnan17285@gmail.com","ashik384897@gmail.com","hafijurrahman00097@gmail.com","mdtaiwan101@gmail.com","3423rohan@gmail.com","rashidabegum3014@gmail.com","skjahangir2253@gmail.com","tituhin2021@gmail.com","rosidh207@gmail.com","sheikhrifatahsan@gmail.com"];
             const neanderthal = ["wahidfardus37@gmail.com","maheehossain823@gmail.com"];
             const martian = ["razanmunsi158259@gmail.com","satabdipaulesita@gmail.com","hasantasin50@gmail.com","ufxytrgj27743@gmail.com","saimumstudy@gmail.com","joy123ctg12@gmail.com","roy741737@gmail.com"];
-            const medvar = ["farduswahid31@gmail.com"]
+            const medvar = ["farduswahid31@gmail.com","simantoansary15@gmail.com"]
             if(profile?.email && preEmails.includes(profile.email)){
                 userRole= "premium";
 

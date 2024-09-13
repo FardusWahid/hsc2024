@@ -38,7 +38,10 @@ const page = async (prop) => {
     name="ACS Medical Admission 24"
     route="/denied"
     />
-
+<Sub
+    name="CPS Engineering Physics"
+    route="/cps"
+    />
 <Sub
     name="Darpan Acdmy OneShot"
     route="/oneshot"
@@ -46,10 +49,10 @@ const page = async (prop) => {
     </section>
 
 
-<br/>
-<Link href="/updates" className="mat m-auto hover:bg-purple-600 flex bg-purple-500 text-black items-center font-semibold justify-center p-[9px] my-5 gap-2 rounded-lg hover:tracking-wide transition-all ease-in duration-100  font-sans  tracking-widest italic text-lg">See what is new<MdTipsAndUpdates size={24} color='black'/>
+<div className='mt-5'>
+<Link href="/updates" className="mat m-auto hover:bg-blue-700 flex bg-purple-600 text-black items-center font-semibold justify-center p-[9px] my-5 gap-2 rounded-lg hover:scale-105 transition-all ease-in duration-100  font-sans  tracking-widest capitalize  text-[17px]">see what is new<MdTipsAndUpdates size={24} color='black'/>
 </Link>
-
+</div>
     </div>  
     
 
