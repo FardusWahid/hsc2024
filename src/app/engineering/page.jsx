@@ -13,7 +13,7 @@ const Folder = () => {
     <div className='select-none'>
       
       <h1 className='font-sans text-center tracking-tighter text-cyan-300 text-[32px] md:text-[45px] md:leading-[50px] mt-2 md:mt-0 font-extrabold'>Engineering batch 2024</h1><div>
-      <h1 className='text-center text-[17px] md:text-[18px] lg:text-[20px] font-mono md:mt-3 font-thin tracking-wide text-pink-400'>2024 Classes</h1>
+      <h1 className='text-center text-[17px] md:text-[18px] lg:text-[20px] font-mono mt-1 md:mt-3 font-thin tracking-wide text-pink-200'>2024 Classes</h1>
 
 <section>
 

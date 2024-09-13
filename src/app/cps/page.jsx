@@ -17,17 +17,17 @@ const Folder =  () => {
 
     <Sub
   name="Dynamic Motion"
-  route="/physics/p1-3"
+  route="/cps"
   />
     <Sub
   name="Newtonian Mechanics"
-  route="/physics/p1-4"
+  route="/cps"
   />
 
 
     <Sub
   name="Gravitation & Gravity"
-  route="/physics/p1-gra"
+  route="/cps"
   />
 
 <Sub
@@ -36,11 +36,11 @@ const Folder =  () => {
   />
     <Sub
   name="Properties of matter"
-  route="/physics/matter"
+  route="/cps"
   />
     <Sub
   name="Ideal gas & kinetics"
-  route="/physics/p1-ideal"
+  route="/cps"
   />
 
 <Mat link="https://docs.google.com/document/d/1Sm6LecuVbJRlbafSFT4t-smy4irrZMxSLZEB4l7jC9M/edit?usp=sharing"/>
@@ -59,19 +59,19 @@ const Folder =  () => {
   />
     <Sub
   name="Static Electricity"
-  route="/physics/p2-2"
+  route="/cps"
   />
     <Sub
   name="Current Electricity"
-  route="/physics/p2current"
+  route="/cps"
   />
     <Sub
   name="Physical Optics"
-  route="/soon"
+  route="/cps"
   />
     <Sub
   name="Modern Physics"
-  route="/soon"
+  route="/cps"
   />
 
 
