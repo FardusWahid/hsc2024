@@ -12,7 +12,7 @@ const Folder = () => {
   return (
     <div className='select-none'>
       
-      <h1 className='font-sans text-center tracking-tighter text-cyan-300 text-[32px] md:text-[45px] md:leading-[50px] mt-2 md:mt-0 font-extrabold'>Engineering batch 2024</h1><div>
+      <h1 className='font-sans text-center tracking-tighter text-cyan-300 text-[32px] md:text-[45px] md:leading-[50px] lg:text-5xl mt-2 md:mt-0 font-extrabold'>Engineering batch 2024</h1><div>
       <h1 className='text-center text-[17px] md:text-[18px] lg:text-[20px] font-mono mt-1 md:mt-3 font-thin tracking-wide text-pink-200'>2024 Classes</h1>
 
 <section>
@@ -52,7 +52,7 @@ const Folder = () => {
 <Mat link="https://tinyurl.com/engi24"/>
 <Link className=" matwidth justify-center flex md:w-1/2 lg:w-1/3 xl:w-[410px] md:text-lg italic bg-gray-900 hover:bg-gray-900 ring-gray-800 hover:ring-red-900 ring-1 hover:ring-[.9px] transition-all ease-in duration-100 hover:scale-105 text-cyan-100 font-extrabold tracking-wide hover:tracking-widest rounded-md m-auto py-[8px] md:py-[12px] mt-5" href="https://docs.google.com/document/d/1G4whoYmuYn1W0-cg1VxRWO4NnnH-MT2dzi4hQX8FlJI/edit?usp=sharing">Practice Sheets&nbsp; <GrDocumentPdf color="white"  size={25}/>
 </Link>
-<p className='text-center font-sans my-3 font-thin italic text-gray-300 text-[16px]' >2023 Engineering Archive</p>
+<p className='text-center font-sans tracking-wide my-3 font-thin italic text-gray-300 text-[16px]' >2023 Engineering Archive</p>
 <Sub
   name="Engineering Archive"
   route="/engineering/archive"
