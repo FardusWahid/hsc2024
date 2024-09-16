@@ -8,7 +8,7 @@ import Neo from "@/app/component/class";
         <div>
             <Neo
             chapter="Physics 1st paper"
-            playid="PLvgzT9BBU5XwljhHEEaniK3Vrpspzszf6"
+            playid="PLvgzT9BBU5XzBBm1l2R8jmu3raKhR1XMR"
             />
         </div>
     )

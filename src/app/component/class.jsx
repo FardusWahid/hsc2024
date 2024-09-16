@@ -43,20 +43,20 @@ function Neo(props) {
   return (
     <div className='select-none'>
 
-      <h1 className='text-center font-extrabold mt-1 md:mt-0 text-2xl'>{props.chapter} </h1><br />
+      <h1 className='text-center font-extrabold mt-2 md:mt-0 text-2xl'>{props.chapter}</h1><br />
 
       {loading && <p className=" flex justify-center items-center font-extrabold tracking-tight text-lg text-white">Loading...</p>}
       {error && <p>Error: {error}</p>}
       {!loading && !error && (
-        <div className="w-full flex flex-wrap justify-center 2xl:w-[1490px] 2xl:m-auto 2xl:justify-start  gap-5  ">
+        <div className="w-full flex flex-wrap justify-center 2xl:w-[1490px] 2xl:m-auto 2xl:justify-start gap-5">
           {currentVideos.map(video => (
 
-            <div key={video.id} >
+  <div key={video.id}>
   <p className='m-auto text-center text-[13px] mb-1 tracking-tighter font-bold font-sans w-[344px] lg:w-[477px] truncate whitespace-nowrap overflow-hidden active:whitespace-normal active:overflow-visible active:text-clip'>{video.snippet.title}</p>
 
 
 
-<div className="bg-black  lg:w-[480px]">
+<div className="bg-gray-950 lg:w-[480px]">
               <section className='w-full flex justify-center'>
                 <ReactPlayer
                   url={`https://www.youtube.com/watch?v=${video.snippet.resourceId.videoId}`}
