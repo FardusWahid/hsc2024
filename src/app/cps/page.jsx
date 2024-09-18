@@ -16,8 +16,8 @@ const Folder =  () => {
 
 
     <Sub
-  name="Dynamic Motion"
-  route="/cps"
+  name="Vector"
+  route="/cps/vector"
   />
     <Sub
   name="Newtonian Mechanics"
