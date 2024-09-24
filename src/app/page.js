@@ -2,7 +2,7 @@ import { getServerSession } from 'next-auth'
 import { option } from './api/auth/[...nextauth]/option'
 import { redirect } from 'next/navigation'
 import Link from 'next/link'
-import { MdTipsAndUpdates } from "react-icons/md";
+import { RiMoneyEuroCircleFill } from "react-icons/ri";
 import Sub from './component/sub'
 const page = async (prop) => {
   const session =  await getServerSession(option)
@@ -50,7 +50,7 @@ const page = async (prop) => {
 
 
 <div className='mt-5'>
-<Link href="/updates" className="mat m-auto hover:bg-blue-700 flex bg-purple-600 text-black items-center font-semibold justify-center p-[9px] my-5 gap-2 rounded-lg hover:scale-105 transition-all ease-in duration-100  font-sans  tracking-widest capitalize  text-[17px]">see what is new<MdTipsAndUpdates size={24} color='black'/>
+<Link href="/refer" className="mat m-auto hover:bg-blue-700 flex bg-purple-600 hover:font-bold text-black items-center font-semibold justify-center p-[9px] my-5 gap-2 rounded-lg hover:scale-105 transition-all ease-in duration-100  font-sans  tracking-widest capitalize  text-[17px]">Earn 75taka per refer<RiMoneyEuroCircleFill  size={24} color='black'/>
 </Link>
 </div>
     </div>  
