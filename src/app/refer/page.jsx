@@ -13,7 +13,7 @@ function page(props) {
     <span className='font-semibold tracking-tight italic'>Copy website & facebook link from here:</span>
   <li><span className='select-all selection:bg-yellow-400 selection:text-black'>https://applecourses.up.railway.app</span></li>
   <li><span className='select-all selection:bg-yellow-400 selection:text-black'>https://applecourses.vercel.app</span></li>
-  <li><span className='tracking-tighter select-all selection:bg-yellow-400 selection:text-black'>https://www.facebook.com/apple.courses.netlify.app.3.0</span></li>
+  <li><span className='tracking-tighter select-all selection:bg-yellow-400 selection:text-black'>https://www.facebook.com/applecourses.pro</span></li>
 
   </ol>   
   </li>
