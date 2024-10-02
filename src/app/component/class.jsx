@@ -1,8 +1,6 @@
 'use client'
 import React, { useEffect, useState } from 'react';
 import ReactPlayer from 'react-player';
-import LoadingScreen from './loading';
-
 const API_KEY = 'AIzaSyBRxPt8NOlqBUKrNvUtHeuCjs9Z3MWUzrs';
 const videosPerPage = 12; 
 
