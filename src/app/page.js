@@ -14,6 +14,12 @@ const page = async (prop) => {
   
   return (
     <div className='select-none'>
+
+        <div className='bg-yellow-500 text-gray-900 gap-2 mt-2 flex justify-center items-center'>
+        <h1 className='text-sm font-bold'>Try this new Interface</h1>
+          <a href="https://ipremium.vercel.app" target='_blank' className='underline italic text-sm font-bold'>Click here</a>
+          <p className='text-xs font-bold italic'>[may contain bugs]</p>
+      </div>
       <h1 className='chapterHeading tracking-tighter md:tracking-normal mb-6'>Apple Admission 2024</h1>
 
       <section className='flex  gap-2  justify-start wd  m-auto  text-[15px] md:w-1/2 lg:w-1/3 xl:w-[390px] md:justify-start my-4 font-sans italic font-semibold'>
