@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="select-none">
+      <body className="select-none pointer-event-none">
         <Navbar/><br/><br/><br/><br className="max-sm:hidden"/>
         {children}
       </body>
